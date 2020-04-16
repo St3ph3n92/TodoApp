@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <link rel="stylesheet" href="todo.css">
+    <title>Todo App</title>
+</head>
+<body>
+    <div class="todo-box">
+        <h3 class="title">Todo List<span class="plus"><i class="fas fa-plus"></i></span><span class="minus hide"><i class="fas fa-minus"></i></span></h3>
+        <input type="text" class="add-todo" maxlength="30" placeholder="Add something">
+        <ul class="todo-list">
+            <li class="todo-item"><span class="delete"><i class="fas fa-trash"></i></span>Sample Item</li>
+        </ul>
+        <div class="button-container"><button class="delete-selected">Delete completed</button></div>
+    </div>
+    
+    <script src="todo.js"></script>
+</body>
+</html>
